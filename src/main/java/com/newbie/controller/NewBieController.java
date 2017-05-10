@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.newbie.service.NewBieService;
 
+//テスト
 @RestController
 public class NewBieController {
 
@@ -30,6 +31,7 @@ public class NewBieController {
 		String anser=NewBieService.getMessage(message);
 		return anser;
 	}
+
 
 
 
